@@ -1,4 +1,4 @@
-class Telefone {
+export class Telefone {
     constructor(ddd, numero) {
         this.ddd = ddd
         this.numero = numero
@@ -9,7 +9,7 @@ class Telefone {
     }
 }
 
-class Endereco {
+export class Endereco {
     constructor(estado, cidade, rua, numero) {
         this.estado = estado
         this.cidade = cidade
@@ -46,7 +46,7 @@ class Endereco {
     }
 }
 
-class Cliente {
+export class Cliente {
     #cpf
     constructor(nome, cpf, endereco) {
         this.nome = nome
@@ -81,7 +81,7 @@ class Cliente {
     }
 }
 
-class Empresa {
+export class Empresa {
     #cnpj
     constructor(razaoSocial, nomeFantasia, cnpj, endereco) {
         this.razaoSocial = razaoSocial
@@ -127,11 +127,4 @@ class Empresa {
     nomeFantasiaCaixaBaixa() {
         return this.nomeFantasia.toLowerCase()
     }
-}
-
-module.exports = {
-    Cliente,
-    Telefone,
-    Endereco,
-    Empresa,
 }

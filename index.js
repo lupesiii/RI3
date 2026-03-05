@@ -1,4 +1,4 @@
-const {Telefone, Cliente, Endereco, Empresa} = require("./classes.js")
+import {Cliente,Empresa,Endereco,Telefone} from "./classes.js"
 
 
 const endereco1 = new Endereco("SP", "São Paulo", "Rua A", 100)
@@ -26,7 +26,7 @@ const cliente5 = new Cliente("Pedro Santos", "55555555555", endereco5)
 cliente5.addTelefone = new Telefone("71", "911111111")
 cliente5.addTelefone = new Telefone("71", "900000000")
 
-listaClientes = [cliente1, cliente2, cliente3, cliente4, cliente5]
+const listaClientes = [cliente1, cliente2, cliente3, cliente4, cliente5]
 
 let embraer = new Empresa("Aeronaves", "Embraer", "121223233434", endereco1)
 embraer.addTelefone = new Telefone("19", "900000000")

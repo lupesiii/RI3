@@ -1,0 +1,20 @@
+{
+  "name": "ri3-lupes3i",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node \"./index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lupesiii/RI3.git"
+  },
+  "author": "Lupesii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lupesiii/RI3/issues"
+  },
+  "homepage": "https://github.com/lupesiii/RI3#readme",
+  "description": ""
+}
