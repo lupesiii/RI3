@@ -92,6 +92,10 @@ class Empresa {
         this.telefones = new Set()
     }
 
+    get showCnpj() {
+        return this.#cnpj
+    }
+
     set addCliente(cliente) {
         this.clientes.add(cliente)
     }
